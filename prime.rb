@@ -5,6 +5,11 @@
 #   integer.prime?
 # end
 
+def is_prime?(num)
+  return if num <= 1
+  (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+end
+
 # #alternate way without prime?
 # def prime?(num)
 #   if num < 0 or num == 0 or num == 1
