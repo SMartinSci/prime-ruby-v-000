@@ -1,5 +1,6 @@
 # Add  code here!
 
+#Quickest code
 # require 'prime'
 # def prime?(integer)
 #   integer.prime?
